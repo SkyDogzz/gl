@@ -11,7 +11,7 @@ SRC_DIR = src
 OBJ_DIR = obj
 INC_DIR = include
 
-SRC_FILES = main.c event/delete.c
+SRC_FILES = main.c event/delete.c event/handle.c event/select.c
 
 OBJ_FILES = $(addprefix $(OBJ_DIR)/, $(SRC_FILES:.c=.o))
 INC_FILES = include/visu.h include/keycode_i.h

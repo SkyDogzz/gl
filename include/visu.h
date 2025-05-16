@@ -22,6 +22,9 @@ typedef struct s_wrapper
 #define WINDOW_HEIGHT	720
 #define WINDOW_BACKGROUND	0x00000000
 
+void	handle_events(t_wrapper *wrapper);
 void	on_delete(t_wrapper *wrapper);
+void	on_next(t_wrapper *wrapperi);
+void	on_previous(t_wrapper *wrapper);
 
 #endif

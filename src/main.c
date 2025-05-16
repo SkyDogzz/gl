@@ -42,8 +42,9 @@ int main(void)
 				}
 				break;
 			case KeyPress:
-				if (wrapper->event.xkey.keycode == KEYCODE_ESC || wrapper->event.xkey.keycode == KEYCODE_Q)
-					on_delete(wrapper);
+					handle_events(wrapper);
+				break;
+			default:
 				break;
 		}
 	}
